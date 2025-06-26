@@ -39,6 +39,7 @@ Brindar una herramienta accesible, visualmente atractiva y útil para la consult
 
 
 ## 📁 Estructura del Proyecto
+   ```bash
 src/
 ├── components/
 │   ├── Chat/
