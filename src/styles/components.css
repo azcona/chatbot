@@ -1,0 +1,33 @@
+@layer components {
+  .chat-bubble {
+    @apply px-4 py-2 rounded-xl font-body text-base font-medium text-white shadow-md;
+  }
+
+  .bot-bubble {
+    @apply bg-pink-600;
+  }
+
+  .user-bubble {
+    @apply bg-violet-600;
+  }
+
+  .input-style {
+    @apply flex-grow resize-none px-4 py-2 rounded-lg bg-[#2B2B65] font-body text-white placeholder-gray-400 border border-pink-500 focus:outline-none;
+  }
+
+  .btn-send {
+    @apply bg-violet-700 hover:bg-violet-800 text-white px-4 py-2 rounded-lg font-bold shadow-lg shadow-violet-700/40 border border-pink-500 transition-all;
+  }
+
+  .timestamp {
+    @apply text-[10px] mt-1 text-gray-400;
+  }
+
+  .timestamp-user {
+    @apply text-right mr-2;
+  }
+
+  .timestamp-bot {
+    @apply text-left ml-2;
+  }
+}
